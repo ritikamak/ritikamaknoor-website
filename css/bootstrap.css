@@ -4596,6 +4596,9 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse {
   background-color: white;
   border-color: white;
+  -webkit-box-shadow: 0 3px 3px #999999;
+  -moz-box-shadow: 0 3px 3px #999999;
+  box-shadow: 0 3px 3px #999999;
 }
 .navbar-inverse .navbar-brand {
   color: #656565;
