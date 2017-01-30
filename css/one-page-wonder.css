@@ -98,12 +98,14 @@ a:hover:after {
       background: transparent;
       width: 0%;
       transition: color 0s;
+      color: black;
     }
 
     .navbar-collapse a:hover:after {
       background: transparent;
       width: 0%;
       transition: color 0s;
+      color: black;
     }
 }
 
@@ -151,6 +153,10 @@ a:hover:after {
     .mynavbar .nav li a {
         border-radius:0;
         display:block;
+    }
+    .mynavbar .nav li a:hover, 
+    .mynavbar .nav li a:focus {
+        color: black;
     }
     .mynavbar li.mylogo {
         display:none
@@ -242,19 +248,56 @@ footer {
     text-align: center;
     font-size: 8px;
     letter-spacing: 1px;
-    background-color: #222;
-    color: #9d9d9d;
-    border-color: #080808;
+    color: #656565;
+    background-color: white;
+    border-color: white;
 }
 
 .fa-fw.fa-3x {
   font-size: 18px;
-  color: #9d9d9d;
+  color: #656565;
 }
+footer .list-inline li a:hover, 
+footer .list-inline li a:focus {
+    color: black;
+}
+footer .list-inline a:before, a:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    top: 50%;
+    margin-top: -0.5px;
+    background: transparent;
+}
+
+footer .list-inline a:before {
+    left: -2.5px;
+}
+footer .list-inline a:after {
+    right: 2.5px;
+    background: transparent;
+    transition: color 0s;
+}
+
+footer .list-inline a:hover:before {
+    background: transparent;
+    width: 0%;
+    transition: color 0s;
+    color: black;
+}
+
+footer .list-inline a:hover:after {
+    background: transparent;
+    width: 0%;
+    transition: color 0s;
+    color: black;
+}
+
 .fa-3x:hover,
 .fa-3x:focus,
 .fa-3x:active {
-  color: white;
+    color: black;
 }
 
 @media(max-width:1200px) {
