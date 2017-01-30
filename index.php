@@ -82,14 +82,14 @@
 
 
     <!-- About Section -->
+    <div class="about" id="about">
     <div class="container">
-        <div class="about" id="about">
-            <h2 class="featurette-heading">About Me
-                <span class="text-muted"></span>
-            </h2>
-            <p class="lead">Hi there! I'm Ritika Maknoor. 
-            I'm a web designer and software developer based in Pittsburgh/NYC. I am currently completing my final year at the University of Pittsburgh- working towards obtaining my B.S. in Computer Science.</p>
-        </div>
+        <h2 class="featurette-heading">About Me
+            <span class="text-muted"></span>
+        </h2>
+        <p class="lead">Hi there! I'm Ritika Maknoor. 
+        I'm a web designer and software developer based in Pittsburgh/NYC. I am currently completing my final year at the University of Pittsburgh- working towards obtaining my B.S. in Computer Science.</p>
+    </div>
     </div>
 
 
@@ -104,7 +104,6 @@
 
 
     <!-- Page Content -->
-<div class="container">
     <div class="portoliosection" id="portfoliosection">
         <hr class="featurette-divider">
         <!-- First Featurette -->
@@ -144,8 +143,6 @@
         </div>
         <hr class="featurette-divider">
     </div>
-    <!-- /.container -->
-</div>
 
 
   <!-- Footer -->
@@ -187,3 +184,4 @@
     </script>
 </body>
 </html>
+
