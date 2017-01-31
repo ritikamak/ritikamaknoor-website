@@ -16,17 +16,21 @@
   font-family: Banaue-Regular;
   src: url(../fonts/Banaue-Regular.otf);
 }
+@font-face { 
+  font-family: HaloHandletter;
+  src: url(../fonts/HaloHandletter.otf);
+}
 html {
     width: 100%;
     height: 100%;
     background: white;
-    background-attachment: fixed;
+/*    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
 }
 body {
     width: 100%;
@@ -41,8 +45,15 @@ body {
     text-transform: uppercase;
     color: black;
 }
-
-a:before, a:after {
+.navbar-brand {
+    font-family: Didot;
+    text-transform: lowercase;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-size: 50px;
+}
+/*-------------------REGULAR NAV------------------------*/
+/*a:before, a:after {
   content: '';
   position: absolute;
   width: 0%;
@@ -68,8 +79,8 @@ a:hover:after {
   background: transparent;
   width: 100%;
   transition: 0s;
-}
-/*-------------------------------------------*/
+}*/
+/*-------------------COLLAPSED NAV------------------------*/
 @media (max-width: 768px) {
     .navbar-collapse a:before, a:after {
       content: '';
@@ -101,10 +112,41 @@ a:hover:after {
       color: black;
     }
 }
+/*-------------------RM NAV LOGO------------------------*/
+.navbar .navbar-brand a:before, a:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  top: 50%;
+  margin-top: -0.5px;
+  background: transparent;
+}
+.navbar .navbar-brand a:before {
+  left: -2.5px;
+}
+.navbar .navbar-brand a:after {
+  right: 2.5px;
+  background: transparent;
+  transition: color 0s;
+}
+.navbar .navbar-brand a:hover:before {
+  background: transparent;
+  width: 0%;
+  transition: color 0s;
+  color: black;
+}
+.navbar .navbar-brand a:hover:after {
+  background: transparent;
+  width: 0%;
+  transition: color 0s;
+  color: black;
+}
+
 
 
 /* ---NAVBAR START---*/
-.mynavbar {
+/*.mynavbar {
     text-align:center;
 }
 .mynavbar .nav {
@@ -151,20 +193,20 @@ a:hover:after {
     .mynavbar li.mylogo {
         display:none
     }
-}
+}*/
 /* ---NAVBAR END---*/
 
 
 .header-image {
     display: table;
-    position: relative;
-    width: 100%;
-    height: 100%;
+    position: fixed;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+
     background-color: #FE5869;
-  background: url(../img/home.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url(../img/home.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -227,6 +269,7 @@ a:hover:after {
     height: 100%;
     font-size: 130px;
     background: rgba(255,255,255,0.9);
+    background: #38C7C7;
 }
 
 .featurette-divider {

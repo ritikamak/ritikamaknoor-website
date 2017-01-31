@@ -13,15 +13,13 @@
     <meta name="author" content="">
     <title>Ritika Site</title>
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/one-page-wonder.css" rel="stylesheet">
+    <link href="css/contact-css.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head> 
 <body>
 
 
-    <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
@@ -29,30 +27,45 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <!-- <a class="navbar-brand" href="#">RM.</a> -->
+            <a class="navbar-brand" href="index.html">rm.</a>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse mynavbar" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="index.php">Home</a>
+                    <a href="aboutsection.html">About</a>
                 </li>
                 <li>
-                    <a href="aboutsection.php">About</a>
+                    <a href="portfoliosection.html">Portfolio</a>
                 </li>
                 <li>
-                    <a href="portfoliosection.php">Portfolio</a>
-                </li>
-                <li>
-                    <a href="contactsection.php">Contact</a>
+                    <a href="contactsection.html">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 
 
+    <section class="header-image">
+        <div class="headline">
+            <div class="container">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="section-bar" class="content-section text-center">
+      <div class="top-section">
+        <div class="container">
+          <div class="col-lg-8 col-lg-offset-2">
+            <h2>Contact</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
     <!-- Contact Section -->
-    <div class="contactsection" id="contactsection">
+    <!--     <div class="contactsection" id="contactsection">
         <div class="container">
             <h2 class="featurette-heading">Contact Me
                 <span class="text-muted"></span>
@@ -71,7 +84,7 @@
                 <br>GitHub  |  Facebook  |  Instagram
             </p>
         </div>
-    </div>
+    </div> -->
 
 
     <!-- Footer -->
@@ -109,3 +122,4 @@
     </script>
 </body>
 </html>
+
