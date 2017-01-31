@@ -51,15 +51,45 @@
     </nav>
 
 
-    <!-- Full Width Image Header -->
-    <header class="header-image">
-        <div class="headline">
-            <div class="container">
-                <h1>Ritika Maknoor</h1>
-                <h2>Software Developer</h2>
-            </div>
+    <!-- Portfolio Section -->
+    <div class="portoliosection" id="portfoliosection">
+        <h2 class="featurette-heading">Portfolio
+            <span class="text-muted"></span>
+        </h2>
+<!--        <hr class="featurette-divider">
+        <div class="featurette" id="portfolio1">
+            <img class="featurette-image img-responsive pull-right" src="">
+            <h2 class="featurette-heading">Pinder
+                <span class="text-muted"></span>
+            </h2>
+            <p class="lead">A mobile and web application that collects user information about products through an engaging game experience. Allows a player to review a name, description, and picture of a product, set a price for what an average consumer would pay for it, indicate sentiment (positive and negative), and add comments.</p>
         </div>
-    </header>
+        <hr class="featurette-divider">
+        <div class="featurette" id="portfolio2">
+            <img class="featurette-image img-responsive pull-left" src="img/LaboonChess.png">
+            <h2 class="featurette-heading">Laboon Chess
+                <span class="text-muted"></span>
+            </h2>
+            <p class="lead">A chess app developed using Stockfish and Gradle.</p>
+        </div>
+        <hr class="featurette-divider">
+        <div class="featurette" id="portfolio3">
+            <img class="featurette-image img-circle img-responsive pull-right" src="">
+            <h2 class="featurette-heading">How It Feels
+                <span class="text-muted"></span>
+            </h2>
+            <p class="lead"></p>
+        </div>
+        <hr class="featurette-divider">
+        <div class="featurette" id="portfolio4">
+            <img class="featurette-image img-circle img-responsive pull-left" src="">
+            <h2 class="featurette-heading">PicTouresque
+                <span class="text-muted"></span>
+            </h2>
+            <p class="lead"></p>
+        </div>
+        <hr class="featurette-divider"> -->
+    </div>
 
 
     <!-- Footer -->
