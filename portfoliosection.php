@@ -53,9 +53,10 @@
 
     <!-- Portfolio Section -->
     <div class="portoliosection" id="portfoliosection">
-        <h2 class="featurette-heading">Portfolio
-            <span class="text-muted"></span>
-        </h2>
+        <div class="container">
+            <h2 class="featurette-heading">Portfolio
+                <span class="text-muted"></span>
+            </h2>
 <!--        <hr class="featurette-divider">
         <div class="featurette" id="portfolio1">
             <img class="featurette-image img-responsive pull-right" src="">
@@ -89,6 +90,7 @@
             <p class="lead"></p>
         </div>
         <hr class="featurette-divider"> -->
+        </div>
     </div>
 
 
