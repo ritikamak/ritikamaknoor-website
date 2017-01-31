@@ -35,16 +35,16 @@
         <div class="collapse navbar-collapse mynavbar" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="index.php">Home</a>
                 </li>
                 <li>
-                    <a href="aboutsection.html">About</a>
+                    <a href="aboutsection.php">About</a>
                 </li>
                 <li>
-                    <a href="portfoliosection.html">Portfolio</a>
+                    <a href="portfoliosection.php">Portfolio</a>
                 </li>
                 <li>
-                    <a href="contactsection.html">Contact</a>
+                    <a href="contactsection.php">Contact</a>
                 </li>
             </ul>
         </div>
