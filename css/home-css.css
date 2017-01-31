@@ -32,6 +32,7 @@ body {
     letter-spacing: 5px;
     text-transform: uppercase;
     color: black;
+    overflow: hidden;
 }
 .navbar-brand {
     letter-spacing: 0px;
@@ -56,10 +57,11 @@ body {
 .top-section {
   margin-top: 80px;
   width: 100%;
-  padding: 50px 0;
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
   color: white;
-  background: url(../img/home.jpg) no-repeat center center scroll;
-  background-color: black;
+  background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
