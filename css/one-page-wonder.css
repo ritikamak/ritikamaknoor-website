@@ -160,7 +160,7 @@ a:hover:after {
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: white;
+    background-color: #FE5869;
   background: url(../img/home.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -176,24 +176,17 @@ a:hover:after {
 }
 
 .headline h1 {
-    font-family: Banaue-Regular;
-    text-transform: lowercase;
-    text-align: center;
-    font-size: 200px;
-    font-weight: 500;
-    color: #949494;
-/*  background: #fff;*/
-/*  background: rgba(255,255,255,0.9);*/
+    font-size: 130px;
+    color: #656565;
+    background: #fff;
+    background: rgba(255,255,255,0.8);
 }
 
 .headline h2 {
-    font-family: Banaue-Regular;
-    text-transform: lowercase;
-    text-align: center;
     font-size: 77px;
-    color: #949494;
-/*  background: #fff;*/
-/*  background: rgba(255,255,255,0.9);*/
+    color: #656565;
+    background: #fff;
+    background: rgba(255,255,255,0.8);
 }
 
 .aboutsection {
@@ -313,8 +306,7 @@ footer .list-inline a:hover:after {
 
 @media(max-width:1200px) {
     .headline h1 {
-        /*font-size: 140px;*/
-        font-size: 200px;
+        font-size: 140px;
     }
     .headline h2 {
         font-size: 63px;
@@ -334,8 +326,7 @@ footer .list-inline a:hover:after {
 }
 @media(max-width:991px) {
     .headline h1 {
-        /*font-size: 105px;*/
-        font-size: 200px;
+        font-size: 105px;
     }
     .headline h2 {
         font-size: 50px;
@@ -369,8 +360,7 @@ footer .list-inline a:hover:after {
 }
 @media(max-width:668px) {
     .headline h1 {
-        /*font-size: 70px;*/
-        font-size: 200px;
+        font-size: 70px;
     }
     .headline h2 {
         font-size: 32px;
@@ -384,8 +374,7 @@ footer .list-inline a:hover:after {
         padding: 75px 0 25px 0;
     }
     .headline h1 {
-        /*font-size: 60px;*/
-        font-size: 200px;
+        font-size: 60px;
     }
     .headline h2 {
         font-size: 30px;
