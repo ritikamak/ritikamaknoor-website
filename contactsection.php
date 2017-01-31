@@ -61,9 +61,14 @@
                 <br>
                 Interested in working together? Fill out the form below with some info about your project and I will get back to you as soon as possible.
                 <br><br>
-                If you prefer to contact me directly, please send your email to: ritika.maknoor@gmail.com
+                Email:
+                <br>ritika.maknoor@gmail.com
                 <br><br>
-                Or reach me at: (609)-775-5911.
+                Phone: 
+                <br>(609)-775-5911
+                <br><br>
+                On the web: 
+                <br>GitHub  |  Facebook  |  Instagram
             </p>
         </div>
     </div>

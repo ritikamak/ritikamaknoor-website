@@ -8,7 +8,14 @@
   font-family: Didot;
   src: url(../fonts/didot.ttf);
 }
-
+@font-face { 
+  font-family: RissaTypeface;
+  src: url(../fonts/RissaTypeface.otf);
+}
+@font-face { 
+  font-family: Banaue-Regular;
+  src: url(../fonts/Banaue-Regular.otf);
+}
 html {
     width: 100%;
     height: 100%;
@@ -153,8 +160,8 @@ a:hover:after {
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: #9d9d9d;
-    background: url(../img/home.jpg);
+    background-color: white;
+/*  background: url(../img/home.jpg);*/
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -169,15 +176,23 @@ a:hover:after {
 }
 
 .headline h1 {
-    font-size: 130px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    font-family: RissaTypeface;
+    text-transform: lowercase;
+    text-align: center;
+    font-size: 200px;
+    font-weight: 500;
+    color: #A6FEED;
+/*  background: #fff;*/
+/*  background: rgba(255,255,255,0.9);*/
 }
 
 .headline h2 {
+    font-family: RissaTypeface;
+    text-transform: lowercase;
+    text-align: center;
     font-size: 77px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+/*  background: #fff;*/
+/*  background: rgba(255,255,255,0.9);*/
 }
 
 .aboutsection {
@@ -297,7 +312,8 @@ footer .list-inline a:hover:after {
 
 @media(max-width:1200px) {
     .headline h1 {
-        font-size: 140px;
+        /*font-size: 140px;*/
+        font-size: 200px;
     }
     .headline h2 {
         font-size: 63px;
@@ -317,7 +333,8 @@ footer .list-inline a:hover:after {
 }
 @media(max-width:991px) {
     .headline h1 {
-        font-size: 105px;
+        /*font-size: 105px;*/
+        font-size: 200px;
     }
     .headline h2 {
         font-size: 50px;
@@ -351,7 +368,8 @@ footer .list-inline a:hover:after {
 }
 @media(max-width:668px) {
     .headline h1 {
-        font-size: 70px;
+        /*font-size: 70px;*/
+        font-size: 200px;
     }
     .headline h2 {
         font-size: 32px;
@@ -365,7 +383,8 @@ footer .list-inline a:hover:after {
         padding: 75px 0 25px 0;
     }
     .headline h1 {
-        font-size: 60px;
+        /*font-size: 60px;*/
+        font-size: 200px;
     }
     .headline h2 {
         font-size: 30px;

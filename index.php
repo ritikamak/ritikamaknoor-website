@@ -55,7 +55,7 @@
     <header class="header-image">
         <div class="headline">
             <div class="container">
-                <h1>Ritika Maknoor</h1>
+                <h1>Ritika</h1>
                 <h2>Software Developer</h2>
             </div>
         </div>
