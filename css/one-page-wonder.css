@@ -161,7 +161,7 @@ a:hover:after {
     width: 100%;
     height: 100%;
     background-color: white;
-/*  background: url(../img/home.jpg);*/
+  background: url(../img/home.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -176,21 +176,22 @@ a:hover:after {
 }
 
 .headline h1 {
-    font-family: RissaTypeface;
+    font-family: Banaue-Regular;
     text-transform: lowercase;
     text-align: center;
     font-size: 200px;
     font-weight: 500;
-    color: #A6FEED;
+    color: #949494;
 /*  background: #fff;*/
 /*  background: rgba(255,255,255,0.9);*/
 }
 
 .headline h2 {
-    font-family: RissaTypeface;
+    font-family: Banaue-Regular;
     text-transform: lowercase;
     text-align: center;
     font-size: 77px;
+    color: #949494;
 /*  background: #fff;*/
 /*  background: rgba(255,255,255,0.9);*/
 }
