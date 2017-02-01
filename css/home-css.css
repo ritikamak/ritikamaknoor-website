@@ -79,8 +79,8 @@ body {
 img {
   height: 100%;  
   width: 100%;
-  min-height: 500px;
-  min-width: 614px;
+  min-height: 400px;
+  min-width: 491px;
   overflow-x: scroll;
   overflow-y: hidden;
 }
