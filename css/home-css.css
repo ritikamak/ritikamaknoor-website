@@ -75,12 +75,12 @@ img {
   height: 100%;  
   width: 100%;
   margin: 0 auto;
-  min-height: 400px;
-  min-width: 491px;
+  min-height: 389px;
+  min-width: 400px;
 /*  max-height: 850px;
   max-width: 1053px;*/
   max-height: 663px;
-  max-width: 576px;
+  max-width: 683px;
   overflow-x: hidden;
   overflow-y: hidden;
 }
