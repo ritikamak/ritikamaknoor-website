@@ -4172,7 +4172,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-left: 20px;
   margin-right: 20px;*/
   border: transparent;
-  background-color: white;
+  background-color: transparent;
 }
 @media (min-width: 768px) {
   .navbar {
@@ -4599,8 +4599,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
-  background-color: white;
-  border-color: white;
+  background-color: transparent;
+  border-color: transparent;
 /*  -webkit-box-shadow: 0 3px 3px #999999;
   -moz-box-shadow: 0 3px 3px #999999;
   box-shadow: 0 3px 3px #999999;*/
@@ -4649,8 +4649,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  background-color: white;
-  border-color: white;
+  background-color: transparent;
+  border-color: transparent;
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
