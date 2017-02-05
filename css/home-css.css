@@ -37,9 +37,11 @@ body {
   overflow-y: hidden;
 }
 .navbar-brand {
+    font-family: HaloHandLetter;
+    text-transform: lowercase;
   letter-spacing: 0px;
   font-weight: 600;
-  font-size: 28px;
+  font-size: 40px;
 }
 .header-image {
   display: table;
