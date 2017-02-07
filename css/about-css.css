@@ -110,11 +110,15 @@ footer {
   font-size: 8px;
   letter-spacing: 1px;
   color: #656565;
-  background-color: white;
-  border-color: white;
+  background-color: transparent;
+  border-color: transparent;
 
-  width: 100%;
-  bottom: 0;
+  position: relative;
+  margin-top: -61px;
+  height: 61px;
+/*  width: 100%;
+  bottom: 0px;*/
+  clear: both;
 }
 .fa-fw.fa-3x {
   font-size: 18px;

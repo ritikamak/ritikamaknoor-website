@@ -27,7 +27,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">rm.</a>
+            <a class="navbar-brand" href="index.html">ritika</a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
@@ -51,31 +51,35 @@
             </div>
         </div>
     </section>
-
+    
 
     <section id="section-bar" class="content-section text-center">
       <div class="top-section">
-        <div class="container">
-          <div class="col-lg-8 col-lg-offset-2">
-            <h2>About</h2>
-          </div>
+        <div class="container1">
+        <!-- <h2>Home</h2> -->         
+            <img src="img/yellow-paint-edited.jpg" alt="">
         </div>
       </div>
     </section>
 
-    <!-- About Section -->
-    <!-- <div class="aboutsection" id="aboutsection">
-        <div class="container">
-            <h2 class="featurette-heading">About Me
-                <span class="text-muted"></span>
-            </h2>
-            <p class="lead">
-                Hi there! I'm Ritika Maknoor. 
-                I'm a web designer and software developer based in Pittsburgh/NYC. I am currently completing my final year at the University of Pittsburgh- working towards obtaining my B.S. in Computer Science.
-            </p>
+    <!-- About Me Writing -->
+    <section id="aboutme-writing" class="aboutme-writing">
+        <div class="writing">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="lead">
+                            Hi there! I'm Ritika Maknoor.
+                            <br><br>
+                            I'm a UI/UX designer and software developer based in Pittsburgh/NYC. I am currently completing my final year at the University of Pittsburgh, working towards obtaining my B.S. in Computer Science.
+                            <br>
+                            Combining my a passion for designing beautiful and functional user experiences, with my skillset in writing clean, elegant and efficient code, it is my goal to deliver not only products, but also experiences to my customers.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div> -->
-
+    </section>
 
     <!-- Footer -->
     <footer>
@@ -112,4 +116,3 @@
     </script>
 </body>
 </html>
-

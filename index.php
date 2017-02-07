@@ -27,7 +27,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">rm.</a>
+            <a class="navbar-brand" href="index.html">ritika</a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
@@ -57,10 +57,9 @@
 
     <section id="section-bar" class="content-section text-center">
       <div class="top-section">
-        <div class="container">
-          <div class="col-lg-8 col-lg-offset-2">
-            <h2>Home</h2>
-          </div>
+        <div class="container1">
+        <!-- <h2>Home</h2> -->            
+            <img src="img/home.jpg" alt="">
         </div>
       </div>
     </section>
