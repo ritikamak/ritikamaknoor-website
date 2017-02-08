@@ -27,18 +27,18 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">ritika</a>
+            <a class="navbar-brand" href="index.php">ritika</a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="aboutsection.html">About</a>
+                    <a href="aboutsection.php">About</a>
                 </li>
                 <li>
-                    <a href="portfoliosection.html">Portfolio</a>
+                    <a href="portfoliosection.php">Portfolio</a>
                 </li>
                 <li>
-                    <a href="contactsection.html">Contact</a>
+                    <a href="contactsection.php">Contact</a>
                 </li>
             </ul>
         </div>
