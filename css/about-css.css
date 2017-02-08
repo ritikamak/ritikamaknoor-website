@@ -36,6 +36,12 @@ body {
   overflow-x: scroll;
   overflow-y: scroll;
 }
+@media (min-width: 768px) {
+  #underlinethis {
+  border-bottom: 3px solid #656565;
+  padding-bottom: 7px;
+  }
+}
 .navbar-brand {
   font-family: HaloHandLetter;
   text-transform: lowercase;
