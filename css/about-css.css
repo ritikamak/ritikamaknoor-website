@@ -1,5 +1,3 @@
-
-
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300);
 @font-face { 
   font-family: Didot;
@@ -21,11 +19,11 @@ html {
   width: 100%;
   height: 100%;
   background: white;
+  overflow-x: scroll;
 }
 body {
   width: 100%;
   height: 100%;
-  min-height: 100%;
   background: white;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 10px;
@@ -33,14 +31,8 @@ body {
   letter-spacing: 5px;
   text-transform: uppercase;
   color: black;
-  overflow-x: scroll;
-  overflow-y: scroll;
-}
-@media (min-width: 768px) {
-  #underlinethis {
-  border-bottom: 3px solid #656565;
-  padding-bottom: 7px;
-  }
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 .navbar-brand {
   font-family: HaloHandLetter;
@@ -57,30 +49,40 @@ body {
   margin-top: 80px;
   display: table;
   width: 100%;
-  padding: 50px 0;
+  height: 100%;
   color: white;
-/*  background: url(../img/blue-paint-cropped.jpg) no-repeat center center scroll;
-*/  background-color: transparent;
+  background-color: transparent;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 .container1 {
+  vertical-align: bottom;
 /*  padding-left: 40px;
   padding-top: 0 auto;
   padding-bottom: 0 auto;*/
   position: fixed;
   text-align: center;
   bottom: 0px;
-  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden; 
 }
 img {
-  padding-top: 20px;
+  margin: 0 auto;
   left: 50%;
-  height: 100%;
-  margin: 0px 0px 0px 0px;
-  min-height: 663px;
+  height: 100%;  
+  width: 100%;
+  margin: 0 auto;
+  min-height: 389px;
+  min-width: 400px;
+/*  max-height: 850px;
+  max-width: 1053px;*/
+  max-height: 663px;
+  max-width: 683px;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 .headline {
   padding-top: 0px;
@@ -97,7 +99,52 @@ img {
   background: #fff;
   background: rgba(255,255,255,0.8);
 }
+
+
+
+
+
+/*.header-image-about {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.headline-about {
+    padding: 120px 0;
+}
+
+.headline-about h1 {
+    font-size: 130px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.headline-about h2 {
+    font-size: 77px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}*/
+/*-------------------------------underline-----------------------------*/
+@media (min-width: 768px) {
+  #underlinethis {
+  border-bottom: 3px solid #656565;
+  padding-bottom: 7px;
+  }
+}
 /*-------------------------------FOOTER-----------------------------*/
+/*.aboutme-writing {
+  background: transparent;
+}
 .writing {
   padding-bottom: 100px;
 }
@@ -118,12 +165,9 @@ footer {
   color: #656565;
   background-color: transparent;
   border-color: transparent;
-
   position: relative;
   margin-top: -61px;
   height: 61px;
-/*  width: 100%;
-  bottom: 0px;*/
   clear: both;
 }
 .fa-fw.fa-3x {
@@ -134,5 +178,30 @@ footer {
 .fa-3x:focus,
 .fa-3x:active {
   color: #EDED6F;
+}*/
+/*-------------------------------CARD CONT-----------------------------*/
+.card-container {
+  height: 100px;
+  position: relative;
 }
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.card .back {
+  transform: rotateY(180deg);
+}
+
 
