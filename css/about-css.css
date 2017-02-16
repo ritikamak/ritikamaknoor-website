@@ -15,6 +15,14 @@
   font-family: HaloHandletter;
   src: url(../fonts/HaloHandletter.otf);
 }
+@font-face { 
+  font-family: Adamas-Regular;
+  src: url(../fonts/Adamas-Regular.otf);
+}
+@font-face { 
+  font-family: parleybold;
+  src: url(../fonts/parleybold.ttf);
+}
 html {
   width: 100%;
   height: 100%;
@@ -59,9 +67,6 @@ body {
 }
 .container1 {
   vertical-align: bottom;
-/*  padding-left: 40px;
-  padding-top: 0 auto;
-  padding-bottom: 0 auto;*/
   position: fixed;
   text-align: center;
   bottom: 0px;
@@ -77,63 +82,72 @@ img {
   margin: 0 auto;
   min-height: 389px;
   min-width: 400px;
-/*  max-height: 850px;
-  max-width: 1053px;*/
   max-height: 663px;
   max-width: 683px;
   overflow-x: hidden;
   overflow-y: hidden;
 }
-.headline {
-  padding-top: 0px;
+h1 {
+  font-family: parleybold;
+  color: black;
+  font-weight: bold;
+  text-align: left;
+  position: fixed;
+  bottom: 180px;
+  padding-left: 60px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 50px;
+  background: transparent;
+/*  background: rgba(255,255,255,0.8);
+*/}
+h3 {
+  font-family: parleybold;
+  color: black;
+  font-weight: bold;
+  text-align: right;
+  position: fixed;
+  bottom: 50px;
+  padding-right: 60px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 50px;
+  background: transparent;
+/*  background: rgba(255,255,255,0.8);
+*/}
+.containerleft {
+  vertical-align: bottom;
+  padding-right: 80px;
+  position: fixed;
+  text-align: left;
+  bottom: 80px;
+  top: 80px;
+  width: relative;
+  height: 100%;
+  margin-right: 50%;
+  overflow: auto; 
 }
-.headline h1 {
-  font-size: 130px;
-  color: #656565;
-  background: #fff;
+.containerright {
+  vertical-align: bottom;
+  padding-left: 80px;
+  position: fixed;
+  text-align: right;
+  bottom: 80px;
+  top: 80px;
+  width: relative;
+  height: 100%;
+  margin-left: 50%;
+  overflow: auto; 
+}
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: black;
   background: rgba(255,255,255,0.8);
 }
-.headline h2 {
-  font-size: 77px;
-  color: #656565;
-  background: #fff;
-  background: rgba(255,255,255,0.8);
-}
-
-
-
-
-
-/*.header-image-about {
-    display: table;
-    position: relative;
-    width: 100%;
-    height: 100%;
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.headline-about {
-    padding: 120px 0;
-}
-
-.headline-about h1 {
-    font-size: 130px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
-}
-
-.headline-about h2 {
-    font-size: 77px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
-}*/
 /*-------------------------------underline-----------------------------*/
 @media (min-width: 768px) {
   #underlinethis {
@@ -141,11 +155,12 @@ img {
   padding-bottom: 7px;
   }
 }
-/*-------------------------------FOOTER-----------------------------*/
-/*.aboutme-writing {
+/*-------------------------------ABOUT ME-----------------------------*/
+.aboutme-writing {
   background: transparent;
 }
 .writing {
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 .lead {
@@ -158,6 +173,7 @@ img {
   background-color: transparent;
   border-color: transparent;
 }
+/*-------------------------------FOOTER-----------------------------*/
 footer {
   text-align: right;
   font-size: 8px;
@@ -178,7 +194,7 @@ footer {
 .fa-3x:focus,
 .fa-3x:active {
   color: #EDED6F;
-}*/
+}
 /*-------------------------------CARD CONT-----------------------------*/
 .card-container {
   height: 100px;
@@ -204,4 +220,9 @@ footer {
   transform: rotateY(180deg);
 }
 
+
+
+
+
+/*-------------------------------HORIZONTAL SCROLL-----------------------------*/
 
