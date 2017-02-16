@@ -95,13 +95,13 @@ a.active {
   outline: none;
 }
 a {
-  color: #fed136;
+  color: #2AB59E;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #fec503;
+  color: #EDED6F;
 }
 h1,
 h2,
@@ -400,7 +400,7 @@ section h3.section-subheading {
   text-align: center;
   top: 50%;
   margin-top: -12px;
-  color: white;
+  color: #656565;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
   margin-top: -12px;
