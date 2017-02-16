@@ -141,9 +141,9 @@ h3 {
 }
 h2 {
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 12px;
-  font-weight: normal;
-  letter-spacing: 5px;
+  font-size: 14px;
+  line-height: 1.75;
+    font-weight: normal;
   text-transform: uppercase;
   color: black;
   background: rgba(255,255,255,0.8);
