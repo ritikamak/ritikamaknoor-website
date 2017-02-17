@@ -1097,7 +1097,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #656565;
+  color: black;
   text-decoration: none;
 }
 a:hover,
@@ -4280,8 +4280,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   height: 40px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 40px;
+  padding-bottom: 20px;
   padding-left: 35px;
   padding-right: 15px;
   font-size: 18px;
@@ -4608,22 +4608,22 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   box-shadow: 0 3px 3px #999999;*/
 }
 .navbar-inverse .navbar-brand {
-  color: #656565;
+  color: black;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-  color: #EDED6F;
+  color: #eeeeee;
   background-color: transparent;
 }
 .navbar-inverse .navbar-text {
-  color: #656565;
+  color: black;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #656565;
+  color: black;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #EDED6F;
+  color: #eeeeee;
   background-color: transparent;
 }
 .navbar-inverse .navbar-nav > .active > a,
@@ -4647,7 +4647,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: white;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
-  background-color: #656565;
+  background-color: black;
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
@@ -4693,7 +4693,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
     background-color: #080808;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-    color: #656565;
+    color: black;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -4714,13 +4714,13 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   }
 }
 .navbar-inverse .navbar-link {
-  color: #656565;
+  color: black;
 }
 .navbar-inverse .navbar-link:hover {
   color: #fff;
 }
 .navbar-inverse .btn-link {
-  color: #656565;
+  color: black;
 }
 .navbar-inverse .btn-link:hover,
 .navbar-inverse .btn-link:focus {
