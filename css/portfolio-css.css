@@ -886,6 +886,21 @@ h5 {
   color: white;
   background-color: black;
 }
+/*---------------------footer-----------------------*/
+.footer-writing {
+  background: transparent;
+  padding-top: 60px;
+  padding-bottom: 60px;
 
-
+  text-align: center;
+  font-size: 7.5px;
+  letter-spacing: 2px;
+  color: #656565;
+  background-color: transparent;
+  border-color: transparent;
+  position: relative;
+  margin-top: -61px;
+  height: 61px;
+  clear: both;
+}
 
