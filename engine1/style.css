@@ -50,8 +50,8 @@
 	left:0;
 	top:0;
 	height:100%;
-	max-height:300px;
-	max-width: 400px;
+	max-height:350px;
+	max-width: 600px;
 	vertical-align: top;
 	border:none;
 	overflow: hidden;
@@ -316,7 +316,7 @@
 }#wowslider-container1 .ws-title{
 	position: absolute;
 	font: 2.4em 'Play', Verdana, Geneva, sans-serif;
-	bottom:0em;
+	bottom:2em;
 	left: 0;
 	margin-right:5em;
 	z-index: 50;
