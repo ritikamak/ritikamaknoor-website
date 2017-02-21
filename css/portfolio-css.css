@@ -863,16 +863,16 @@ body {
 
 /*-------------PHOTOGRAPHY MODAL PAGE--------------*/
 #portfolioModal1 .modal-content {
-  background-image: url(../img/modal1.jpg);
+  background-image: url(../img/modal-1.jpg);
 }
 #portfolioModal2 .modal-content {
-  background-image: url(../img/modal2.jpg);
+  background-image: url(../img/modal-2.jpg);
 }
 #portfolioModal3 .modal-content {
-  background-image: url(../img/modal3.jpg);
+  background-image: url(../img/modal-3.jpg);
 }
 #portfolioModal4 .modal-content {
-  background-image: url(../img/modal4.jpg);
+  background-image: url(../img/modal-4.jpg);
 }
 
 
