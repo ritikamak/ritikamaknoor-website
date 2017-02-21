@@ -7,13 +7,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Ritika Site</title>
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/about-css.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="engine1/jquery.js"></script>
 </head> 
 <body>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<!--     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
@@ -26,75 +27,40 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li>
-                    <a id="underlinethis" href="aboutsection.html">About</a>
+                    <a href="aboutsection.html">About</a>
                 </li>
                 <li>
                     <a href="portfoliosection.html">Portfolio</a>
                 </li>
                 <li>
-                    <a href="contactsection.html">Contact</a>
+                    <a id="underlinethis" href="contactsection.html">Contact</a>
                 </li>
             </ul>
         </div>
-    </nav>
-
-    <section class="header-image">
-        <div class="headline">
-            <div class="container">
-            </div>
+    </nav> -->
+    <!-- Contact Section -->
+    <!--     <div class="contactsection" id="contactsection">
+        <div class="container">
+            <h2 class="featurette-heading">Contact Me
+                <span class="text-muted"></span>
+            </h2>
+            <p class="lead">
+                <br>
+                Interested in working together? Fill out the form below with some info about your project and I will get back to you as soon as possible.
+                <br><br>
+                Email:
+                <br>ritika.maknoor@gmail.com
+                <br><br>
+                Phone: 
+                <br>(609)-775-5911
+                <br><br>
+                On the web: 
+                <br>GitHub  |  Facebook  |  Instagram
+            </p>
         </div>
-    </section>
-
-    <section id="section-bar" class="content-section text-center">
-      <div class="top-section">
-        <div class="container1">
-            <!-- <div class="card">
-                <div class="side"><img src="img/colorful-this.jpg" alt=""></div>
-                <div class="side back"><img src="img/binary-this.jpg" alt=""></div>
-            </div>
-            <img src="img/white-this.jpg" alt="">
-            <h1>designer + programmer</h1> -->
-            <img src="img/colorful-this.jpg" alt="">
-        </div>
-      </div>
-    </section>
-
-    <!-- <section class="header-image-about">
-        <div class="headline-about">
-            <div class="container">
-                 <h1>Designer</h1>
-            </div>
-        </div>
-    </section> -->
-
-    <!-- <div class="card-container">
-      <div class="card">
-        <div class="side"><img src="img/colorful-this.jpg" alt=""></div>
-        <div class="side back"><img src="img/binary-this.jpg" alt=""></div>
-      </div>
     </div> -->
-
-    <!-- About Me Writing -->
-    <section id="aboutme-writing" class="aboutme-writing">
-        <div class="writing">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h2>
-                            Hi!<br><br>
-                            I am Ritika Maknoor and this is my personal portfolio.<br><br>
-                            I am a UI/UX designer and front-end software developer based in Pittsburgh/NYC. I am currently completing my final year at the University of Pittsburgh.<br>
-                            I get my inspiration for vibrant and unique concepts through exploration of urban art and life.<br>
-                            Combining my a passion for designing beautiful and functional user experiences, with my skillset in writing clean, elegant and efficient code, it is my goal to deliver not only products, but also experiences to my customers.<br>
-                        </h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> 
-
     <!-- Footer -->
-    <!--<footer>
+<!--     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -119,11 +85,102 @@
         </div>
     </footer> -->
 
+
+
+
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">ritika</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <!-- <div class="collapse navbar-collapse in" id="bs-example-navbar-collapse-1" aria-expanded="true"> -->
+            <ul class="nav navbar-nav">
+                <li>
+                    <a id="underlinethis" href="aboutsection.html">About</a>
+                </li>
+                <li>
+                    <a href="portfoliosection.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="contactsection.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="header-image">
+        <div class="headline">
+            <div class="container">
+            </div>
+        </div>
+    </section>
+
+    <section id="section-bar" class="content-section text-center">
+      <div class="top-section">
+        <div class="container1">
+            <div id="wowslider-container1">
+                <div class="ws_images">
+                    <ul>
+                        <li>
+                            <a>
+                                <img src="data1/images/colorfulthis.jpg" alt="responsive slider" title="Designer" id="wows1_0"/>
+                            </a>
+                        </li>
+                        <li>
+                            <img src="data1/images/binarythis.jpg" alt="Coder" title="Coder" id="wows1_1"/>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ws_script" style="position:absolute;left:-99%">
+                    <a>
+                    </a>
+                </div>
+                <div class="ws_shadow">
+                </div>
+            </div>  
+        </div>
+      </div>
+    </section>
+
+
+    <!-- About Me Writing -->
+    <section id="aboutme-writing" class="aboutme-writing">
+        <div class="writing">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2>
+                            Hi!
+                            I'm Ritika Maknoor and this is my personal portfolio. I'm a front-end software developer based in Pittsburgh/NYC.
+                            Combining my a passion for designing beautiful and functional user experiences, with my skillset in writing clean, elegant and efficient code, it is my goal to deliver not only products, but also experiences to my customers.
+                            I get my inspiration for vibrant and unique concepts through exploration of urban art and life. If you're interested, check out my past work in the portolio section.
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+
+
+
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="engine1/wowslider.js"></script>
+    <script type="text/javascript" src="engine1/script.js"></script>
+
     <script>
         var shiftWindow = function() { scrollBy(0, -40) };
         window.addEventListener("hashchange", shiftWindow);
     </script>
 </body>
 </html>
+
