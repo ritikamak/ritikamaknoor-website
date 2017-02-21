@@ -91,7 +91,8 @@ img {
   overflow-y: hidden;
 }
 h2 {
-  font-family: PlayfairDisplay-Regular;
+/*  font-family: PlayfairDisplay-Regular;*/
+  font-family: Didot;
   text-align: justify;
   font-size: 14px;
   line-height: 1.75;
