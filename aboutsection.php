@@ -12,12 +12,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Ritika Site</title>
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/about-css.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="engine1/jquery.js"></script>
 </head> 
 <body>
-
 
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="navbar-header">
@@ -32,7 +33,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="aboutsection.php">About</a>
+                    <a id="underlinethis" href="aboutsection.php">About</a>
                 </li>
                 <li>
                     <a href="portfoliosection.php">Portfolio</a>
@@ -44,20 +45,36 @@
         </div>
     </nav>
 
-
     <section class="header-image">
         <div class="headline">
             <div class="container">
             </div>
         </div>
     </section>
-    
 
     <section id="section-bar" class="content-section text-center">
       <div class="top-section">
         <div class="container1">
-        <!-- <h2>Home</h2> -->         
-            <img src="img/yellow-paint-edited.jpg" alt="">
+            <div id="wowslider-container1">
+                <div class="ws_images">
+                    <ul>
+                        <li>
+                            <a>
+                                <img src="data1/images/colorfulthis.jpg" alt="responsive slider" title="Designer" id="wows1_0"/>
+                            </a>
+                        </li>
+                        <li>
+                            <img src="data1/images/binarythis.jpg" alt="Coder" title="Coder" id="wows1_1"/>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ws_script" style="position:absolute;left:-99%">
+                    <a>
+                    </a>
+                </div>
+                <div class="ws_shadow">
+                </div>
+            </div>  
         </div>
       </div>
     </section>
@@ -68,48 +85,38 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <p class="lead">
-                            Hi there! I'm Ritika Maknoor.
-                            <br><br>
-                            I'm a UI/UX designer and software developer based in Pittsburgh/NYC. I am currently completing my final year at the University of Pittsburgh, working towards obtaining my B.S. in Computer Science.
-                            <br>
-                            Combining my a passion for designing beautiful and functional user experiences, with my skillset in writing clean, elegant and efficient code, it is my goal to deliver not only products, but also experiences to my customers.
-                        </p>
+                        <h2>
+                            Hi!
+                            I'm Ritika Maknoor and this is my personal portfolio. I'm a front-end software developer based in Pittsburgh/NYC.
+                            Combining my passion for designing beautiful and functional user experiences, with my skillset in writing clean, elegant and efficient code, it is my goal to deliver not only products, but also experiences to my customers.
+                            I get my inspiration for vibrant and unique concepts through exploration of urban art and life. If you're interested, check out my work in the portolio section.
+                        </h2>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> 
 
     <!-- Footer -->
-    <footer>
+    <section id="footer" class="footer">
+        <div class="footer-writing">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <br>
                     <ul class="list-inline">
-                        <li>
-                            <a href="https://github.com/ritikamak"><i class="fa fa-github fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="http://facebook.com/ritika.maknoor"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://instagram.com/ritikamaknoor"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="mailto:ritika.maknoor@gmail.com"><i class="fa fa-envelope-o fa-fw fa-3x"></i></a>
-                        </li>
-                        <p><br>Copyright &copy; Ritika Maknoor 2017</p>
+                        <br>Copyright &copy; Ritika Maknoor 2017
                     </ul>
                 </div>
             </div>
         </div>
-    </footer>
-
+        </div>
+    </section>
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="engine1/wowslider.js"></script>
+    <script type="text/javascript" src="engine1/script.js"></script>
     <script>
         var shiftWindow = function() { scrollBy(0, -40) };
         window.addEventListener("hashchange", shiftWindow);

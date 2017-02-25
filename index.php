@@ -18,7 +18,6 @@
 </head> 
 <body>
 
-
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -44,7 +43,6 @@
         </div>
     </nav>
 
-
     <section class="header-image">
         <div class="headline">
             <div class="container">
@@ -54,16 +52,13 @@
         </div>
     </section>
 
-
     <section id="section-bar" class="content-section text-center">
       <div class="top-section">
         <div class="container1">
-        <!-- <h2>Home</h2> -->            
             <img src="img/home.jpg" alt="">
         </div>
       </div>
     </section>
-
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -73,4 +68,3 @@
     </script>
 </body>
 </html>
-
