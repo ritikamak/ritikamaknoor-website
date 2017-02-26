@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Ritika Site</title>
+    <title>Ritika</title>
     <link rel="stylesheet" type="text/css" href="engine1/style.css" />
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/about-css.css" rel="stylesheet">
@@ -89,7 +89,7 @@
                             Hi!
                             I'm Ritika Maknoor and this is my personal portfolio. I'm a front-end software developer based in Pittsburgh/NYC.
                             Combining my passion for designing beautiful and functional user experiences, with my skillset in writing clean, elegant and efficient code, it is my goal to deliver not only products, but also experiences to my customers.
-                            I get my inspiration for vibrant and unique concepts through exploration of urban art and life. If you're interested, check out my work in the portolio section.
+                            I believe that each and every product is a work of art and should be treated as such. Every stage of development constructs a layer of personality and a chance for a relationship with its users. I get my own personal inspiration for vibrant and unique concepts through exploration of urban art and life. If you're interested, check out my work in the portolio section.
                         </h2>
                     </div>
                 </div>
@@ -123,3 +123,4 @@
     </script>
 </body>
 </html>
+

@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Ritika Site</title>
+    <title>Ritika</title>
     <link rel="stylesheet" type="text/css" href="engine1/style.css" />
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/contact-css.css" rel="stylesheet">
@@ -27,24 +27,64 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">ritika</a>
+            <a class="navbar-brand" href="index.php">ritika</a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="aboutsection.html">About</a>
+                    <a href="aboutsection.php">About</a>
                 </li>
                 <li>
-                    <a href="portfoliosection.html">Portfolio</a>
+                    <a href="portfoliosection.php">Portfolio</a>
                 </li>
                 <li>
-                    <a id="underlinethis" href="contactsection.html">Contact</a>
+                    <a id="underlinethis" href="contactsection.php">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 
 
+
+
+
+
+
+    <section class="header-image">
+        <div class="headline">
+            <div class="container">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Writing -->
+    <section id="aboutme-writing" class="aboutme-writing">
+        <div class="writing">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2>
+                            Interested in working together? Feel free to contact me!<br><br>
+                        <hr class="featurette-divider">
+                            Email:
+                                <br>
+                                <a href="mailto:ritika.maknoor@gmail.com">ritika.maknoor@gmail.com</a>
+                                <br><br>
+                            Phone: 
+                                <br>
+                                <a>(609)-775-5911</a>
+                                <br><br>
+                            On the web: 
+                                <br>
+                                <a href="https://www.linkedin.com/in/ritikamaknoor/">LinkedIn</a>  |  
+                                <a href="https://www.github.com/ritikamak/">GitHub</a>  |  
+                                <a href="https://instagram.com/ritikamaknoor/">Instagram</a>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
 
     <!-- Contact Section -->
 <!--         <div class="contactsection" id="contactsection">
@@ -118,3 +158,4 @@
     </script>
 </body>
 </html>
+

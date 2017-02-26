@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Ritika Site</title>
+    <title>Ritika</title>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/portfolio-css.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -53,10 +53,10 @@
                             <div class="portfolio-hover-content">
                             </div>
                         </div>
-                        <img src="img/photography.jpg" class="img-responsive" alt="">
+                        <img src="img/appdev.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Photography</h4>
+                        <h4>App Development</h4>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -65,10 +65,10 @@
                             <div class="portfolio-hover-content">
                             </div>
                         </div>
-                        <img src="img/appdev.jpg" class="img-responsive" alt="">
+                        <img src="img/photography.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>App Development</h4>
+                        <h4>Photography</h4>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -101,8 +101,8 @@
 
     <!-- Portfolio Modals -->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
@@ -140,8 +140,8 @@
             </div>
         </div>
     </div>
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
@@ -157,7 +157,8 @@
                                 <h5>App Development</h5><br><br>
                                 <p>
                                     <a href="https://pinder-1288b.firebaseapp.com/">Pinder</a> is a mobile and web app that collects user information about products through an engaging game experience. It allows a player to review a name, description, and picture of a product, set a price for what an average consumer would pay for it, indicate sentiment (positive and negative), and add comments.<br>
-                                    <a href="https://github.com/ritikamak/pinder-application">Code can be found here</a>.
+                                    <a href="https://github.com/ritikamak/pinder-application">Code can be found here</a>.<br>
+                                    <br>
                                 </p>
                                 <p>
                                     <a>Laboon Chess</a> 
@@ -194,7 +195,7 @@
                                 <p>
                                     <a>Calculator CPU</a> 
                                     is a 32-bit MIPS processor designed and built using Logism.<br>
-                                    <a href="https://github.com/ritikamak/calculator-cpu">Code can be found here</a>.
+                                    <a href="https://github.com/ritikamak/calculator-cpu">Code can be found here</a>.<br><br>
                                 </p>
                             </div>
                         </div>
