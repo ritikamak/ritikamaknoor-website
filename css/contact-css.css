@@ -48,7 +48,7 @@ body {
   letter-spacing: 5px;
   text-transform: uppercase;
   color: black;
-  overflow-x: hidden;
+  overflow-x: scroll;
   overflow-y: scroll;
 }
 .navbar-brand {
@@ -78,8 +78,8 @@ body {
   bottom: 0px;
 /*  top: 80px;
 */
-  overflow-x: hidden;
-  overflow-y: hidden; 
+  overflow-x: scroll;
+  overflow-y: scroll; 
 }
 img {
   margin: 0 auto;
@@ -143,15 +143,15 @@ h2 {
 .footer-writing {
   padding-top: 60px;
   padding-bottom: 60px;
-bottom: 0;
-width: 100%;
+  bottom: 0;
+  width: 100%;
   text-align: center;
   font-size: 7.5px;
   letter-spacing: 2px;
   color: #656565;
   background-color: transparent;
   border-color: transparent;
-  position: absolute;
+  position: relative;
   margin-top: -61px;
   height: 61px;
   clear: both;
