@@ -31,6 +31,10 @@
   font-family: PlayfairDisplay-Regular;
   src: url(../fonts/fairplay-display/PlayfairDisplay-Regular.otf);
 }
+@font-face { 
+  font-family: GT-Walsheim-Pro-Trial-Light;
+  src: url(../fonts/Grilli-Type/GT-Walsheim-Pro-Trial-Light.otf);
+}
 
 html {
   width: 100%;
@@ -92,7 +96,7 @@ img {
 }
 h2 {
 /*  font-family: PlayfairDisplay-Regular;*/
-  font-family: Didot;
+  font-family: GT-Walsheim-Pro-Trial-Light;
   text-align: center;
   font-size: 14px;
   line-height: 1.75;
@@ -145,7 +149,7 @@ h2 {
 }
 h3 {
 /*  font-family: PlayfairDisplay-Regular;*/
-  font-family: Didot;
+  font-family: GT-Walsheim-Pro-Trial-Light;
   text-align: center;
   font-size: 11px;
   line-height: 1.75;

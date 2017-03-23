@@ -27,6 +27,11 @@
   font-family: Druchilla;
   src: url(../fonts/Druchilla.otf);
 }
+@font-face { 
+  font-family: GT-Walsheim-Pro-Trial-Regular;
+  src: url(../fonts/Grilli-Type/GT-Walsheim-Pro-Trial-Regular.otf);
+}
+
 body {
   overflow-x: hidden;
   background: white;
@@ -801,7 +806,7 @@ ul.social-buttons li a:active {
   padding-right: 60px;
   padding-top: 60px;
   padding-bottom: 60px;
-    font-family: Didot;
+    font-family: GT-Walsheim-Pro-Trial-Regular;
     text-align: justify;
     font-size: 14px;
     line-height: 1.75;
