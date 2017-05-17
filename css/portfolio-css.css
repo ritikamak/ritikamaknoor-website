@@ -47,7 +47,7 @@ body {
   text-transform: lowercase;
   letter-spacing: 0px;
   font-weight: 150;
-  font-size: 110px;
+  font-size: 108px;
 }
 .header-image {
   display: table;
@@ -102,6 +102,10 @@ body {
       border-color: white;
     }
   }
+}
+.navbar-inverse {
+  background-color: white;
+  border-color: white;
 }
 
 
